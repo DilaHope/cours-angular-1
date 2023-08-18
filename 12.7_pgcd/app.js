@@ -1,5 +1,5 @@
-const { map, mergeMap, pluck } = rxjs.operators;
-const { fromEvent, interval, timer  } = rxjs;
+import { map, mergeMap, pluck } from 'rxjs.operators';
+import { fromEvent, interval, timer  } from 'rxjs';
 
 const ob1$ = fromEvent(num1, 'input');
 const ob2$ = fromEvent(num2, 'input');
